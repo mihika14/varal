@@ -4,25 +4,26 @@
     flex-wrap: wrap;
     margin-right: 26px;
     margin-top: 50px;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     align-content: center;
-}
+} 
+ 
+.illustration{
+    width: 500px;
+    display: flex;
+    margin-left: 1075px;
+    flex-direction: column; 
+     align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center; }
 
 .ui.icon.input>input {
     padding-right: 2.67142857em!important;
     border: 2px solid blue;
     width: 300px;
     height: 50px;
-}
-
-.image{
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
-    margin-top: 50px;
-}
+}  
 
 .leftcontent{
     display: flex;
@@ -34,3 +35,42 @@
     margin-left: 50px;
 }
 
+
+ .claim{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    font-family: Noto Sans;
+    -webkit-text-fill-color: blue;
+ }
+
+.maincontent{
+    position: absolute;
+    top: 240px;
+    font-size: 60px;
+    left: 40px;
+    font-family: Lexand Deca;
+ } 
+ .subcontent{
+    position: absolute;
+    left: 40px;
+    top: 460px;
+    font-size: 20px;
+    font-family: Lexand Deca;
+} 
+
+.extracontent{
+    position: absolute;
+    left: 40px;
+    top: 550px;
+    font-size: 20px;
+    font-family: Lexand Deca;
+} 
+
+.company{
+    position: absolute;
+    left: 40px;
+    top: 650px;
+    font-size: 20px;
+    font-family: Lexand Deca;
+}
